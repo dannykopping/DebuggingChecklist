@@ -2,7 +2,7 @@
 
   1. **Blame yourself.**
     * In debugging, having an ego will only cause you to work longer and harder to solve a bug. Be humble; accept your humanity. Make 100% sure that the way you're attacking a problem is _actually_ isolating the problem.
-    * Are you able to reproduce the problem every single time you try? People use testing frameworks to not only replicate bugs but to make sure ether bug actually goes away *
+    * Are you able to reproduce the problem every single time you try? People use testing frameworks to not only replicate bugs, but to make sure the bug actually goes away *
   2. **Blame your tools.**
     * Have you got cache enabled? Are you working in IE6? Try to ensure that your tools aren't giving you false-positives or false-negatives. Use an HTTP proxy like [Charles Proxy](http://www.charlesproxy.com/) to debug HTTP requests.
   3. **Blame your framework.**
@@ -15,7 +15,7 @@
     * Be sure to disable any caching technologies to ensure you're always looking at the most recent data, and that your _actual_ code is executing every time (not some cached version).
     * Have you tried turning it off & on again? =)
   5. **Blame your language.**
-    * Is the code you're debugging very complex or novel? Maybe it's a bug (highly likely)
+    * Is the code you're debugging very complex or novel? Maybe it's a bug in your language (highly unlikely)
     * Always break the problem down into as small a piece as you can - it's probably you
   6. **Blame the world.**
     * Have you tried logging a bug?
